@@ -4,6 +4,6 @@
 
 ```ts
 const removeDuplicate = <T = any>(arr: T[]) => {
-    return [...new Set(arr)]
+  return [...new Set(arr)]
 }
 ```

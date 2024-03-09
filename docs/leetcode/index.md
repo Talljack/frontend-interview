@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Leetcode"
-  text: "Algorithm of Leetcode"
+  name: 'Leetcode'
+  text: 'Algorithm of Leetcode'
   actions:
     - theme: brand
       text: 二叉树
@@ -18,4 +18,3 @@ features:
     details: Leetcode 题解
     link: /leetcode/binaryTree/层序遍历
 ---
-

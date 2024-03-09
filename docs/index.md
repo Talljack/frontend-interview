@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Frontend Interview"
-  text: "Collect all frontend interview question"
+  name: 'Frontend Interview'
+  text: 'Collect all frontend interview question'
   actions:
     - theme: brand
       text: React
@@ -21,4 +21,3 @@ features:
     details: Utils 函数
     link: /utils/index
 ---
-

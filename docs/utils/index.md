@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Frontend Common Utils Operation"
-  text: "Collect all common utils operation"
+  name: 'Frontend Common Utils Operation'
+  text: 'Collect all common utils operation'
   actions:
     - theme: brand
       text: Array
@@ -21,4 +21,3 @@ features:
     details: Object 工具函数
     link: /utils/object
 ---
-
