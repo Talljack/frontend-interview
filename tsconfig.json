@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "lib": ["ESNext", "DOM"],
+        "strictNullChecks": true,
+        "moduleResolution": "Node",
+        "skipLibCheck": true,
+        "noEmit": true
+    }
+}
