@@ -2,11 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir: './',
   title: 'Frontend Interview',
   description: 'Record all interview review question',
   head: [['link', { rel: 'shortcut icon', href: '/logo.png' }]],
-  base: '/interview/',
   lastUpdated: true,
   themeConfig: {
     logo: '/logo.png',

@@ -1,3 +1,3 @@
 # frontend-interview
 
-Record all interview review questions and collect them on the website.
+Collect all interview review questions and collect them on the website.
