@@ -1,2 +1,3 @@
-# leetcode
-Record my ideas and solutions to leetcode questions
+# frontend-interview
+
+Record all interview review questions and collect them on the website.
