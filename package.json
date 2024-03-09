@@ -1,0 +1,37 @@
+{
+  "name": "frontend-interview",
+  "version": "1.0.0",
+  "description": "Frontend interview preparation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [
+    "interview",
+    "front-end",
+    "leetcode"
+  ],
+  "author": "Talljack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Talljack/frontend-interview/issues"
+  },
+  "homepage": "https://github.com/Talljack/frontend-interview#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react": "^4.2.1",
+    "tailwindcss": "^3.4.1",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "vitepress": "1.0.0-rc.45"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
