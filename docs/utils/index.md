@@ -3,8 +3,12 @@
 layout: home
 
 hero:
-  name: 'Frontend Common Utils Operation'
-  text: 'Collect all common utils operation'
+  name: 'Utils'
+  text: 'Collect all common handWriting function'
+  tagline: 'Array、Object、Map、Set、Lodash etc...'
+  image:
+    src: /cat-cat.png
+    alt: Cat
   actions:
     - theme: brand
       text: Array

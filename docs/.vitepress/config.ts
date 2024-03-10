@@ -4,10 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Frontend Interview',
   description: 'Record all interview review question',
-  head: [['link', { rel: 'shortcut icon', href: '/logo.png' }]],
+  head: [['link', { rel: 'shortcut icon', href: '/cat-cat.png' }]],
   lastUpdated: true,
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/cat-cat.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -43,7 +43,10 @@ export default defineConfig({
       ],
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/Talljack/frontend-interview' }],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Talljack/frontend-interview' },
+      { icon: 'x', link: 'https://twitter.com/YugangCao' },
+    ],
     footer: {
       message: 'MIT License.',
       copyright: 'Copyright © 2024-present Talljack',
