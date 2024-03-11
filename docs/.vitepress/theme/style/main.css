@@ -16,4 +16,20 @@
   --vp-button-brand-hover-bg: #D939CD;
 
   --vp-button-brand-active-border: #F6CEEC;
+
+  --vp-badge-info-border: transparent;
+  --vp-badge-info-text: rgb(0, 184, 163);
+  --vp-badge-info-bg: var(--vp-c-default-soft);
+
+  --vp-badge-tip-border: transparent;
+  --vp-badge-tip-text: #999;
+  --vp-badge-tip-bg: var(--vp-c-default-soft);
+
+  --vp-badge-warning-border: transparent;
+  --vp-badge-warning-text: rgb(255, 184, 0);
+  --vp-badge-warning-bg: var(--vp-c-warning-soft);
+
+  --vp-badge-danger-border: transparent;
+  --vp-badge-danger-text: rgb(255, 45, 85);
+  --vp-badge-danger-bg: var(--vp-c-danger-soft);
 }
