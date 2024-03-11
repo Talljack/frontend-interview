@@ -30,6 +30,16 @@ export default defineConfig({
             { text: '层序遍历', link: '/leetcode/binaryTree/层序遍历' },
           ],
         },
+        {
+          text: '链表',
+          collapsed: true,
+          items: [
+            {
+              text: '相交链表',
+              link: '/leetcode/listNode/相交链表',
+            },
+          ],
+        },
       ],
       utils: [
         {
