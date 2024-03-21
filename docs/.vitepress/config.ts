@@ -13,6 +13,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Leetcode', link: '/leetcode/index' },
       { text: 'Utils', link: '/utils/index' },
+      { text: 'Network', link: '/network/cache' },
     ],
 
     sidebar: {
@@ -49,6 +50,12 @@ export default defineConfig({
         {
           text: 'Object',
           link: '/utils/object',
+        },
+      ],
+      network: [
+        {
+          text: '浏览器缓存',
+          link: '/network/cache',
         },
       ],
     },
