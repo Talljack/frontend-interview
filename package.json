@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Collect Frontend interview questions",
   "main": "index.js",
-  "packageManager": "pnpm@8.15.4",
+  "packageManager": "pnpm@8.15.5",
   "private": true,
   "type": "module",
   "scripts": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/Talljack/frontend-interview#readme",
   "devDependencies": {
     "@types/node": "^20.11.30",
-    "@types/react": "^18.2.67",
+    "@types/react": "^18.2.70",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
@@ -36,11 +36,11 @@
     "lint-staged": "^15.2.2",
     "picocolors": "^1.0.0",
     "prettier": "^3.2.5",
-    "simple-git-hooks": "^2.11.0",
+    "simple-git-hooks": "^2.11.1",
     "tailwindcss": "^3.4.1",
     "unplugin-auto-import": "^0.17.5",
     "unplugin-vue-components": "^0.26.0",
-    "vitepress": "1.0.0-rc.45"
+    "vitepress": "1.0.1"
   },
   "dependencies": {
     "react": "^18.2.0",
