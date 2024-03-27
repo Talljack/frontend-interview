@@ -11,12 +11,19 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Interview', link: '/interview/微派网络' },
       { text: 'Leetcode', link: '/leetcode/index' },
       { text: 'Utils', link: '/utils/index' },
       { text: 'Network', link: '/network/cache' },
     ],
 
     sidebar: {
+      interview: [
+        {
+          text: '微派网络',
+          link: '/interview/微派网络',
+        },
+      ],
       leetcode: [
         {
           text: '数组',
