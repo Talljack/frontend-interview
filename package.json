@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/Talljack/frontend-interview#readme",
   "devDependencies": {
-    "@types/node": "^20.11.30",
-    "@types/react": "^18.2.70",
-    "@types/react-dom": "^18.2.22",
+    "@types/node": "^20.12.4",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
     "eslint-plugin-markdown": "^4.0.1",
@@ -37,10 +37,10 @@
     "picocolors": "^1.0.0",
     "prettier": "^3.2.5",
     "simple-git-hooks": "^2.11.1",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^3.4.3",
     "unplugin-auto-import": "^0.17.5",
     "unplugin-vue-components": "^0.26.0",
-    "vitepress": "1.0.1"
+    "vitepress": "^1.0.2"
   },
   "dependencies": {
     "react": "^18.2.0",
