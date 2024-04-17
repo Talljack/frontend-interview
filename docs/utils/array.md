@@ -2,7 +2,7 @@
 
 ### 数组去重
 
-```ts
+```typescript
 const removeDuplicate = <T = any>(arr: T[]) => {
   return [...new Set(arr)]
 }

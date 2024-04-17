@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Collect Frontend interview questions",
   "main": "index.js",
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@9.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,8 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "preinstall": "npx only-allow pnpm",
-    "lint": "eslint src",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "postinstall": "simple-git-hooks"
   },
   "keywords": [
@@ -26,13 +27,14 @@
   },
   "homepage": "https://github.com/Talljack/frontend-interview#readme",
   "devDependencies": {
-    "@types/node": "^20.12.4",
-    "@types/react": "^18.2.74",
-    "@types/react-dom": "^18.2.24",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-markdown": "^4.0.1",
     "eslint-plugin-react": "^7.34.1",
+    "globals": "^15.0.0",
     "lint-staged": "^15.2.2",
     "picocolors": "^1.0.0",
     "prettier": "^3.2.5",
@@ -40,7 +42,7 @@
     "tailwindcss": "^3.4.3",
     "unplugin-auto-import": "^0.17.5",
     "unplugin-vue-components": "^0.26.0",
-    "vitepress": "^1.0.2"
+    "vitepress": "^1.1.0"
   },
   "dependencies": {
     "react": "^18.2.0",
