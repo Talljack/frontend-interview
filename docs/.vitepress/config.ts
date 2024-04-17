@@ -28,7 +28,10 @@ export default defineConfig({
         {
           text: '数组',
           collapsed: true,
-          items: [{ text: '两数之和', link: '/leetcode/array/两数之和' }],
+          items: [
+            { text: '两数之和', link: '/leetcode/array/两数之和' },
+            { text: '三数之和', link: '/leetcode/array/三数之和' },
+          ],
         },
         {
           text: '二叉树',
