@@ -9,5 +9,6 @@
         "moduleResolution": "Node",
         "skipLibCheck": true,
         "noEmit": true
-    }
+    },
+    "include": ["test/*.ts"]
 }

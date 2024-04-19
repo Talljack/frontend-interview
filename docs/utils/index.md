@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 'Utils'
   text: 'Collect all common handWriting function'
-  tagline: 'Array、Object、Map、Set、Lodash etc...'
+  tagline: 'Array、Object、Map、Set、Utils etc...'
   image:
     src: /cat-cat.png
     alt: Cat
