@@ -4,7 +4,7 @@ import markdown from "eslint-plugin-markdown";
 export default [
     ...markdown.configs.recommended,
     {
-        files: ['**/*.{js,jsx,ts,tsx}'],
+        files: ['**/*.{jsx,tsx}'],
         plugins: {
             react,
         },

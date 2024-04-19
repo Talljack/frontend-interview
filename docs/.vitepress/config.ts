@@ -72,6 +72,10 @@ export default defineConfig({
           text: 'Object',
           link: '/utils/object',
         },
+        {
+          text: 'Utils',
+          link: '/utils/utils',
+        },
       ],
       network: [
         {
