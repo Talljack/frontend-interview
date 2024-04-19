@@ -4,7 +4,18 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Frontend Interview',
   description: 'Record all interview review question',
-  head: [['link', { rel: 'shortcut icon', href: '/cat-cat.png' }]],
+  head: [
+    ['link', { rel: 'shortcut icon', href: '/cat-cat.png' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-3YB3LMJ0GV' }],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3YB3LMJ0GV');`,
+    ],
+  ],
   lastUpdated: true,
   themeConfig: {
     logo: '/cat-cat.png',
