@@ -34,7 +34,7 @@
     "eslint": "^9.0.0",
     "eslint-plugin-markdown": "^4.0.1",
     "eslint-plugin-react": "^7.34.1",
-    "globals": "^15.0.0",
+    "globals": "^15.6.0",
     "lint-staged": "^15.2.2",
     "picocolors": "^1.0.0",
     "prettier": "^3.2.5",
