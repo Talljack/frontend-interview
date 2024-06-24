@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/Talljack/frontend-interview#readme",
   "devDependencies": {
-    "@types/node": "^20.12.7",
+    "@types/node": "^20.14.8",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
     "@vitejs/plugin-react": "^4.2.1",
